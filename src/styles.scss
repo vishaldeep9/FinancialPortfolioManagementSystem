@@ -1,0 +1,26 @@
+// @import 'bootstrap/scss/bootstrap';
+canvas{
+    width: 100%;
+    border: 2px solid #ddd;
+    max-height: 300px !important;
+  }
+
+  .performance-container table {
+    width: 100%;
+    box-shadow: 0 0 15px #ddd; 
+  }
+  
+  .performance-container th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: #17a2b8;
+  }
+  
+  .performance-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+.error{
+  color: red;
+}

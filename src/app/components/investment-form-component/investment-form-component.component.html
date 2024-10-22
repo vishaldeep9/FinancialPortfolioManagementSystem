@@ -1,0 +1,44 @@
+<div class="form-container ">
+    <form [formGroup]="investmentFormData" >
+
+        <div class="container">
+         <label for="">Asset Type</label>
+         <select formControlName="assetType">
+            <option value="stock">Stocks</option>
+            <option value="bonds">Bonds</option>
+            <option value="realEstate">Real Estate</option>
+         </select>
+         <p class="error" *ngIf="investmentFormData.get('assetType')?.invalid && (investmentFormData.get('assetType')?.touched || investmentFormData.get('assetType')?.dirty)">
+            Please select an asset type.
+          </p>
+        </div>
+
+        <div class="container">
+            <label for="">Quantity</label>
+            <input type="number" name="" id="" formControlName="quantity">
+            <p class="error" *ngIf="investmentFormData.get('quantity')?.invalid && (investmentFormData.get('quantity')?.touched || investmentFormData.get('quantity')?.dirty)">
+                Quantity must be at least 1.
+              </p>
+        </div>
+
+        <div class="container">
+            <label for="">Purchase Price</label>
+            <input type="number" name="" id="" formControlName="purchasePrice">
+            <p class="error" *ngIf="investmentFormData.get('purchasePrice')?.invalid && (investmentFormData.get('purchasePrice')?.touched || investmentFormData.get('purchasePrice')?.dirty)">
+                Purchase Price must be a positive number.
+              </p>
+        </div>
+
+        <div class="container">
+            <label for="">Date</label>
+            <input type="date" name="" id="" formControlName="purchaseDate">
+            <p class="error" *ngIf="investmentFormData.get('purchaseDate')?.invalid && (investmentFormData.get('purchaseDate')?.touched || investmentFormData.get('purchaseDate')?.dirty)">
+                Please select a purchase date.
+              </p>
+        </div>
+
+       <div>
+        <button (click)="makeInvestment()">Make Investment</button>
+       </div>
+    </form>
+</div>

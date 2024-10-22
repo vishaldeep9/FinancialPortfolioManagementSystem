@@ -1,0 +1,82 @@
+{
+  "investments": [
+    {
+      "id": 1,
+      "assetType": "Stocks",
+      "quantity": 26,
+      "purchasePrice": 150,
+      "purchaseDate": "2023-01-10"
+    },
+    {
+      "id": 2,
+      "assetType": "Real Estate",
+      "quantity": 1,
+      "purchasePrice": 500000,
+      "purchaseDate": "2020-08-15"
+    },
+    {
+      "id": 3,
+      "assetType": "Bonds",
+      "quantity": 50,
+      "purchasePrice": 1000,
+      "purchaseDate": "2022-06-01"
+    },
+    {
+      "id": 4,
+      "assetType": "Stocks",
+      "quantity": 15,
+      "purchasePrice": 200,
+      "purchaseDate": "2023-05-20"
+    },
+    {
+      "id": 5,
+      "assetType": "Real Estate",
+      "quantity": 1,
+      "purchasePrice": 750000,
+      "purchaseDate": "2018-11-11"
+    },
+    {
+      "id": 6,
+      "assetType": "Bonds",
+      "quantity": 10,
+      "purchasePrice": 5000,
+      "purchaseDate": "2021-02-25"
+    },
+    {
+      "id": 7,
+      "assetType": "Stocks",
+      "quantity": 100,
+      "purchasePrice": 50,
+      "purchaseDate": "2024-01-01"
+    },
+    {
+      "id": 8,
+      "assetType": "Real Estate",
+      "quantity": 1,
+      "purchasePrice": 600000,
+      "purchaseDate": "2022-09-30"
+    },
+    {
+      "id": 9,
+      "assetType": "Bonds",
+      "quantity": 20,
+      "purchasePrice": 2000,
+      "purchaseDate": "2023-03-05"
+    },
+    {
+      "id": 10,
+      "assetType": "Stocks",
+      "quantity": 30,
+      "purchasePrice": 75,
+      "purchaseDate": "2023-07-15"
+    },
+    {
+      "id": "bf4e",
+      "assetType": "Bonds",
+      "quantity": 34,
+      "purchasePrice": 24667,
+      "purchaseDate": "2024-10-20"
+    }
+    
+  ]
+}

@@ -1,0 +1,38 @@
+<div class="main-container">
+    <!-- Left side Dummy Content-->
+    <div class="left-sidebar">
+        <ul>
+            <li routerLink="/investment-form">Investment Form</li>
+            <li>Asset Allocation</li>
+            <li>Market Trends</li>
+            <li>Performance</li>
+            <li>Reports</li>
+        </ul>
+    </div>
+
+    <!-- Right side content -->
+    <div class="right-sidebar">
+
+        <!-- Performance metrics -->
+        <div class="performance-container">
+            <h3>Performance Metrics</h3>
+           <app-performance-metrics></app-performance-metrics>
+        </div>
+
+        <div class="chart">
+
+            <!-- Asset allocation -->
+            <div class="chart-container">
+                <h3>Asset Allocation</h3>
+              <app-allocation></app-allocation>
+            </div>
+
+            <!-- Market trends  -->
+            <div class="chart-container">
+                <h3>Market Trends</h3>
+         <app-market-trends></app-market-trends>
+            </div>
+        </div>
+
+    </div>
+</div>
